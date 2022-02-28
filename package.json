@@ -1,0 +1,21 @@
+{
+  "name": "assignment09",
+  "version": "1.0.0",
+  "main": "myfunction.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbodduna/Assignment09.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbodduna/Assignment09/issues"
+  },
+  "homepage": "https://github.com/rbodduna/Assignment09#readme",
+  "keywords": [],
+  "description": ""
+}
