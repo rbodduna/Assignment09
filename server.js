@@ -13,7 +13,7 @@ const pool=mariadb.createPool({
 	connectionlimit:5
 });
 const { check, validationResult } = require('express-validator');
-
+/*----------------- /say function*/
 app.get('/',(req, res)=>{
     res.send("AWS lambda function available to test. http://143.198.168.65:3000/:3000/say?keyword=HelloWorld")
 })
@@ -29,7 +29,7 @@ app.get('/say', (req,res) => {
         res.send(err)
     })
 })
-
+/*-------------------------------------*/
 const swaggerJsdoc= require('swagger-jsdoc');
 const swaggerUi= require('swagger-ui-express');
 
